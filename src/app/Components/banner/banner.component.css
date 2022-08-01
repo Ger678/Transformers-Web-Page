@@ -1,0 +1,19 @@
+
+
+.img-responsive{
+    max-width: 840px;
+    float: right;
+    margin-right: -423px;
+    opacity: 0.5;
+}
+
+h1{
+    color: white;
+    font-family: transformer;
+    float: left;
+    position: relative;
+    top: 36px;
+    font-size: 44px;
+    left: -25px;
+    letter-spacing: 5px;
+}
