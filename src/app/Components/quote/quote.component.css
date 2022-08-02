@@ -1,5 +1,6 @@
 aside{
-    background-color: aliceblue;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #d31b1b 0%, #2c3e50 74%);
     height:100px;
 }
 .fa-solid{
@@ -7,10 +8,12 @@ aside{
     position: relative;
     float: left;
     font-size: 42px;
+    color: #fff;
 }
 
 .Condensed p {
     font-size: 20px;
     position: relative;
     top: 26px;
+    color: #fff;
 }

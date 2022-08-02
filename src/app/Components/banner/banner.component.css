@@ -1,19 +1,24 @@
-
-
+*{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
 .img-responsive{
-    max-width: 840px;
-    float: right;
-    margin-right: -423px;
-    opacity: 0.5;
+    width: 682px;
+    position: relative;
+    float: left;
+    left: -136px;
 }
 
-h1{
+.tittle{
     color: white;
     font-family: transformer;
-    float: left;
-    position: relative;
     top: 36px;
     font-size: 44px;
-    left: -25px;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
+    align-items: center;
+}
+.tittle h1{
+    font-size: 50px;
+    border-bottom: 1px solid white;
 }

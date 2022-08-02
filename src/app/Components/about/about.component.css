@@ -5,18 +5,31 @@
 }
 
 .tittle{
+    position: relative;
+    content:" ";
+    font-size: 50px;
+    left: -50px;
     margin-top: 53px;
     font-family: transformer;
     color: white;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    -webkit-text-fill-color: transparent;
+}
+.tittle::after{
+    position: relative;
+    content:" ";
+    margin-top: 70px;
+    font-family: transformer;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.5px black;
+    -webkit-text-fill-color: white;
 }
 
-.tittle h1{
-    font-size: 50px;
-}
 
 .content{
-    text-align: center;
+    text-align: left;
     font-family: c-condensed;
+    font-size: 16px;
     color: white;
     letter-spacing: 1px;
 }
