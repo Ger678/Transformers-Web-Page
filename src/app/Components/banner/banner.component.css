@@ -7,7 +7,7 @@
     width: 682px;
     position: relative;
     float: left;
-    left: -136px;
+    left: -174px;
 }
 
 .tittle{
@@ -21,4 +21,8 @@
 .tittle h1{
     font-size: 50px;
     border-bottom: 1px solid white;
+}
+
+.tittle h3{
+    font-size: 22px;
 }
