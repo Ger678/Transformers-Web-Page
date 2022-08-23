@@ -1,0 +1,11 @@
+@font-face{
+    font-family: 'Transformer';
+    src: url('./assets/fonts/Transformers.ttf')
+}
+
+h1{
+    font-family: Transformer;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}

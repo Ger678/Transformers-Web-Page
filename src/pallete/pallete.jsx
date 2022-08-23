@@ -5,14 +5,11 @@ const styles = createTheme({
     palette: {
         primary: {
             main: red[900]
+        },
+        background: {
+            default: blueGrey[900],
         }
       },
-    background: {
-        default: {
-            paper: blueGrey[900],
-            default: blueGrey[900]
-        }
-    }
 })
 
 export default styles;
